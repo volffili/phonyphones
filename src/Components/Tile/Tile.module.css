@@ -1,0 +1,35 @@
+.link{
+    text-decoration: none;
+    color:white;
+}
+
+.tile{
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #414855;
+    width: 250px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tile:hover{
+    background-color: #505868;
+}
+
+.stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+    display: inline-block;
+    font-size: 20px;
+    font-family: Times;
+    line-height: 1;
+}
+
+.stars::before {
+    content: "★★★★★";
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, #fff var(--percent), #282c34 var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

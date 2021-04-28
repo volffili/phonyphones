@@ -1,0 +1,26 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    background-color: #414855;
+    padding: 50px;
+}
+  
+.img{
+    width: 400px;
+    padding: 20px;
+}
+
+.attrib{
+    padding: 5px;
+    margin: 0;
+}
+
+a{
+    font-weight: 700;
+    text-decoration: underline;
+    padding: 20px;
+    cursor: pointer;
+    color:white;
+}

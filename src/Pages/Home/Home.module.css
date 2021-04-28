@@ -1,0 +1,20 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.checkdiv{
+  margin-top: 25px;
+}
+
+.checkbox {
+  transform: scale(1.5);
+  margin: 0px 20px;
+}
+
+label{
+  font-size: 20px;
+  line-height: 20px;
+}
