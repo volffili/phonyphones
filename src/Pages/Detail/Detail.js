@@ -1,6 +1,5 @@
 import style from './Detail.module.css';
 import mockedPhones from '../../Mock';
-import {useState} from 'react';
 import {Link} from 'react-router-dom';
 
 const Detail = ({match}) => {

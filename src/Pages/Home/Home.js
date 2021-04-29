@@ -29,7 +29,7 @@ const Home = () => {
             value="android" 
             checked={isAndroidChecked}
             onChange={()=>setAndroid(!isAndroidChecked)} />
-            <label for="android">Android</label>
+            <label htmlFor="android">Android</label>
 
             <input className={style.checkbox} 
             type="checkbox" 
@@ -38,7 +38,7 @@ const Home = () => {
             value="ios"             
             checked={isIOSChecked}
             onChange={()=>setIOS(!isIOSChecked)}/>
-            <label for="ios">iOS</label>
+            <label htmlFor="ios">iOS</label>
         </div>
         <div className={style.content}>
             {getPhones().map(phoneInfo => <Tile key={phoneInfo.id} {...phoneInfo}/>)}
